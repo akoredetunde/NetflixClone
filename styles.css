@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif
+}
+
+header{
+    background-image: url("images/NG-en-20230327-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0 8rem;
+    margin: 0
+    
+}
+
+.over-lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient(to top, rgba(18,18,18,1), rgba(0,0,0,0.4));
+    z-index: 1;
+}
+
+.header-content{
+    z-index: 2;
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+}
+nav{
+    z-index: 2;
+    padding: 2rem 0 10rem 0;
+    text-align: left;
+}
+.logo{
+    width: 15%;
+}
+.nav-button{
+    float: right;
+    background-color: #E50914;
+    color: #FFFFFF;
+    border: none;
+    font-weight:400;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.nav-button:hover{
+    background-color: #C11119;
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+form{
+    padding: 1rem 0 11rem  0;
+}
+.pan{
+    display: inline-block;
+}
+.email-message{
+    text-align: left;
+    color:#E50914;
+    visibility: hidden;
+}
+
+input{
+    padding: 0.9rem 10rem 0.9rem 0.8rem;
+    margin-right: 0.7rem;
+    border-radius: 0.3rem;
+    background-color: transparent;    
+    border: 1px solid #5F6061;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
+
+
+.form-button{
+    background-color: #E50914;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.form-button:hover{
+    background-color: #C11119;
+}
+hr{
+    border-width: 0.6rem;
+    margin: 0;
+    border-color: rgb(35,35,35);
+    opacity: 1
+}
+.tv-section{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 3rem 9rem 4rem 9rem;
+    align-items: center;
+    
+}
+.v{
+    position: relative;
+}
+video{
+    position: absolute;
+    transform: translate(-120%, 40%);
+    width: 68%;
+}
+.t{
+    position: relative;
+    z-index: 2;
+}
+
+.l{
+    float: right;
+}
+.s{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.con{
+    border: 2px solid rgb(35,35,35);
+    border-radius: 0.8rem; 
+    padding: 0.7rem 0.3rem;
+    transform: translate(33%, -130%);
+    background-color: #000000;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+}
+.con p{
+    padding: 0;
+    margin: 0;
+}
+.con h6{
+    padding: 0;
+    margin: 0;
+}
+
+.tex{
+    align-items: center;
+    text-align: left;
+    align-self: center;
+    display: inline-block;
+    margin-left: 1rem;
+    align-items: center;
+}
+.tex h1{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.con .l{
+    width: 25%
+}
+.tex p{
+    font-size: 1rem;
+    color: #0071EB;
+    
+}
+
+.question-section{
+    padding: 3rem 9rem 1rem 9rem;
+    background-color: #000000;
+    color: #FFFFFF
+}
+.question-section h1{
+    text-align: center;
+}
+
+.Question{
+    padding: 1.5rem;
+    background-color: #2D2D2D;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+.Question:hover{
+    background-color: #4E4E4E;
+}
+.Question p{
+    display: inline-block;
+    margin: 0;
+}
+
+.Question svg{
+    float: right;
+}
+.rotate{
+    transform: rotate(45deg)
+}
+
+.answer{
+    background-color: #2D2D2D;
+    padding: 1.5rem;
+}
+
+.display{
+    display: none;
+}
+
+.display:click{
+    display: block;
+}
+
+.question-rule{
+    border-width: 0.1rem;
+    border-color: #000000;
+}
+.answer-rule{
+    border-color: #000000;
+}
+.cen{
+    display: block;
+    text-align: center;
+}
+.bot-p{
+    text-align: center;
+    margin: 2rem 0 0.3rem 0;
+    font-size: 1.3rem;
+}
+.last-btn{
+    padding-bottom: 1rem;
+}
+
+.footer{
+    padding: 5em 9rem 5rem 9rem;   
+    background-color: #000000;
+    
+}
+
+.footer li{
+    list-style-type: none;
+    margin-bottom: 2rem;   
+}
+.col-4 li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+a{
+    color: #AFAFAF;
+}
+.footer p{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.akoredetunde{
+    font-size: 0.8rem;
+}
+select{
+    border: 1px solid #FFFFFF;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 2rem 0 2rem 0;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 0.2rem;
+}
+option{
+    color: #FFFFFF;
+}
+.globe{
+    fill: #FFFFFF;
+    width: 1rem;
+    transform: translateX(140%);
+
+}
+
+@media screen and (max-width: 1200px){
+    header{
+        padding: 0 2rem;
+    }
+    .tv-section{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .question-section{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .footer{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .tv-section{
+        text-align: center;
+    }
+    .tv-section h1{
+        font-size: 2rem;
+    }
+    .tv-section p{
+        font-size: 1.3rem;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header p{
+        font-size: 1.3rem;
+    }
+    .question-section h1{
+        font-size: 2rem;
+    }
+    .con{
+        text-align: left;
+        min-width: 50%;
+        transform: translateY(-120%);
+
+
+    }
+    .con img{
+        width: 10%;
+    }
+    .con .l{
+        width: 10%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    input{
+        display: block;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .pan{
+        display: block;
+    }
+    .email-message{
+        display: none;
+    }
+    form{
+        padding-bottom: 2rem;
+    }
+    .Question svg{
+        width: 6%;
+        
+    }
+}
+
+@media (min-width: 929px) and (max-width: 991px){
+    video{
+        width: 50%
+    }
+}
+
+@media (min-width: 880px) and (max-width: 928px){
+    video{
+        width: 55%
+    }
+}
+
+@media (min-width: 800px) and (max-width: 879px){
+    video{
+        width: 60%
+    }
+}
